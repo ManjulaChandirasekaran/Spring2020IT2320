@@ -1,0 +1,70 @@
+.main
+{
+padding: 10px;
+border-color: black;
+border-radius: 5px;
+box-shadow: 1em;
+}
+
+button{
+    padding: 10px;
+    margin: 5px;
+    background-image: linear-gradient(lightblue,orange);
+    clear: both;
+}
+#wrapper
+{
+    width: 800px;   
+    clear: both; 
+}
+.row
+{
+    width: 50%;  
+    text-align: center;       
+}
+
+.col
+{ 
+    height: 100px;   
+    width: 30%;    
+    float: left;
+    border: solid 1px black;    
+    padding: 1px;    
+    box-shadow: 1em;
+    text-align: center;    
+    text-shadow: 2em;
+    font-size: 30px;
+}
+
+.clicked
+{   
+    color: white; 
+    text-align: center;          
+    background-color: slateblue;
+}
+#message
+{
+    font-size: 1.2em;    
+    display: block;
+}
+#status
+{
+    color: blue;
+    padding: 10px;    
+    width: 200px;
+    border-color: green;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+}
+
+.highlight
+{
+    color: rgb(168, 168, 58);
+}
+
+.zoom
+{
+    transform: scale(1.1);
+    background-color: yellow;
+}

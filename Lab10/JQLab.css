@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+#wrapper
+{
+    width: 500px;
+    height: 100px;   
+    border: solid 1px black; 
+}
+.wrapperDiv
+{
+    text-align: center; 
+    width: 23%;
+    margin: 2px;
+    padding: 2px;
+    height: 90%;
+    float: left;        
+    background-color: lightgrey;    
+}
+
+#button_panel
+{    
+    background-color: grey;
+    border: solid 1px darkgrey;
+    width: 450px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.active
+{
+    background-color: yellow;
+}

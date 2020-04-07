@@ -1,0 +1,76 @@
+.header{
+    color: darkblue; 
+    font-weight: 100;
+    font-family: "Times New Roman";
+    background-color: green;
+}
+
+aside h1
+{
+    color: purple;
+}
+
+#wrapper
+{
+    width: 100%;
+}
+
+.article-section
+{
+    width: 68%;    
+    float: left;
+    
+}
+
+section{
+    border-style: none;    
+    border-radius: 5px;     
+    padding: 10px; 
+    margin: 10px; 
+}
+.aside-section
+{
+    background-image: linear-gradient(lightyellow, white);
+    width: 28%; 
+    float: left;
+    border-style: solid;
+    border-width: 0.5px;  
+    padding: 10px;  
+}
+
+.clear
+{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+}
+
+#button_holder
+{
+    padding: 10px;
+}
+
+.blueviolet
+{
+    background-color: lightblue;
+    color: violet;
+}
+
+a{
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 1.1em;
+    margin: 2px;
+}
+
+.section-content
+{
+    padding: 5px;
+    color: green;
+   
+}

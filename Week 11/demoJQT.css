@@ -21,11 +21,9 @@ section p, a, div, h1{
     background-color: lightblue;
 }
 
-#btnPanel
+#btnPanel, #btnPanel2
 {
     background-color: black;
-}
-
-button{
-    font-size: 0.75em;
+    width: 700px;
+    padding: 20px;    
 }

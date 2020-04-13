@@ -3,6 +3,10 @@
     width: 500px;
     color: purple;
 }
+div{
+    border: 1px solid pink;
+    padding: 5px;
+}
 
 section p, a, div, h1{
     margin-left: 5px;
@@ -12,4 +16,16 @@ section p, a, div, h1{
 #content
 {
     font-size: 20px;
+    font-weight: bold;
+    border: 5px solid hotpink;
+    background-color: lightblue;
+}
+
+#btnPanel
+{
+    background-color: black;
+}
+
+button{
+    font-size: 0.75em;
 }

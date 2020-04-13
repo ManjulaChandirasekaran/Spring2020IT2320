@@ -1,0 +1,15 @@
+#container
+{
+    width: 500px;
+    color: purple;
+}
+
+section p, a, div, h1{
+    margin-left: 5px;
+    color: navy;
+}
+
+#content
+{
+    font-size: 20px;
+}

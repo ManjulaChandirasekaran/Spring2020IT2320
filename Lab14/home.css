@@ -1,0 +1,22 @@
+#container
+{
+    width: 500px;
+    color: purple;
+}
+div{
+    font-size: 16px;
+    padding: 5px;
+}
+.btnPanel
+{
+    background-color: lightblue;
+    width: 100px;
+    padding: 10px;
+    
+}
+#results
+{
+    width: 500px;
+    height: 800px;
+    background-color: lightblue;
+}

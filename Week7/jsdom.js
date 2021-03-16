@@ -23,6 +23,7 @@ window.onload = function(){
 
     var btn6 = document.getElementById("btn6");
     btn6.addEventListener("click",removeSq);
+
     
     var elems = document.getElementsByClassName("userInput");
     //elems is an array so you need a loop
@@ -33,8 +34,23 @@ window.onload = function(){
             checkforerrors(this);
         } )
     }
+
+    var btns = document.getElementsByClassName("btnA");//4 buttons of class btnA
+    for( var i=0; i < btns.length; i++)
+    {
+        btns[i].addEventListener("click", function(){  
+            ChangeContentOfButton(this); //If you clicked on btn1, then this=btn1        
+        })
+    }
+    
 }
 
+function ChangeContentOfButton(btnObj)
+{
+    btnObj.innerHTML = "Active";
+    console.log(btnObj.id);
+
+}
 function checkforerrors(elem)
 {   
     /*userInput validation rules
